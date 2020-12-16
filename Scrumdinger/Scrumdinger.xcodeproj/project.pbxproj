@@ -15,6 +15,7 @@
 		899198FC2589EC6900A7C60B /* ScrumdingerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899198FB2589EC6900A7C60B /* ScrumdingerUITests.swift */; };
 		89EDFC062589F70D00955669 /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89EDFC052589F70D00955669 /* DailyScrum.swift */; };
 		89EDFC0E2589F88100955669 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89EDFC0D2589F88100955669 /* CardView.swift */; };
+		89EDFC16258A248A00955669 /* ScrumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89EDFC15258A248A00955669 /* ScrumsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		899198FD2589EC6900A7C60B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		89EDFC052589F70D00955669 /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
 		89EDFC0D2589F88100955669 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		89EDFC15258A248A00955669 /* ScrumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				89EDFC042589F3E200955669 /* Model */,
 				899198DE2589EC6700A7C60B /* ScrumdingerApp.swift */,
+				89EDFC15258A248A00955669 /* ScrumsView.swift */,
 				899198E02589EC6700A7C60B /* MeetingView.swift */,
 				89EDFC0D2589F88100955669 /* CardView.swift */,
 				899198E22589EC6800A7C60B /* Assets.xcassets */,
@@ -276,6 +279,7 @@
 				899198E12589EC6700A7C60B /* MeetingView.swift in Sources */,
 				89EDFC062589F70D00955669 /* DailyScrum.swift in Sources */,
 				89EDFC0E2589F88100955669 /* CardView.swift in Sources */,
+				89EDFC16258A248A00955669 /* ScrumsView.swift in Sources */,
 				899198DF2589EC6700A7C60B /* ScrumdingerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
