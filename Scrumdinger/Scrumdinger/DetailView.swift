@@ -24,7 +24,7 @@ struct DetailView: View {
                 
                 HStack {
                     Label("Length", systemImage: "clock")
-                        .accessibilityLabel(Text("Metting length"))
+                        .accessibilityLabel(Text("Meeting length"))
                     Spacer()
                     Text("\(scrum.lengthInMinutes) minutes")
                 }
