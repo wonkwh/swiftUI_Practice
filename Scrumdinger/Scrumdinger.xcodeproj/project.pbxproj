@@ -18,6 +18,7 @@
 		89EDFC16258A248A00955669 /* ScrumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89EDFC15258A248A00955669 /* ScrumsView.swift */; };
 		89EDFC1E258A294700955669 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89EDFC1D258A294700955669 /* DetailView.swift */; };
 		89EDFC26258A2E2E00955669 /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89EDFC25258A2E2E00955669 /* EditView.swift */; };
+		89FF7300258F74860081B9FE /* Color+Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89FF72FF258F74860081B9FE /* Color+Codable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		89EDFC15258A248A00955669 /* ScrumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumsView.swift; sourceTree = "<group>"; };
 		89EDFC1D258A294700955669 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		89EDFC25258A2E2E00955669 /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
+		89FF72FF258F74860081B9FE /* Color+Codable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Color+Codable.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,7 +107,7 @@
 		899198DD2589EC6700A7C60B /* Scrumdinger */ = {
 			isa = PBXGroup;
 			children = (
-				89EDFC042589F3E200955669 /* Model */,
+				89EDFC042589F3E200955669 /* Models */,
 				899198DE2589EC6700A7C60B /* ScrumdingerApp.swift */,
 				89EDFC15258A248A00955669 /* ScrumsView.swift */,
 				899198E02589EC6700A7C60B /* MeetingView.swift */,
@@ -145,12 +147,13 @@
 			path = ScrumdingerUITests;
 			sourceTree = "<group>";
 		};
-		89EDFC042589F3E200955669 /* Model */ = {
+		89EDFC042589F3E200955669 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				89FF72FF258F74860081B9FE /* Color+Codable.swift */,
 				89EDFC052589F70D00955669 /* DailyScrum.swift */,
 			);
-			path = Model;
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -284,6 +287,7 @@
 			files = (
 				899198E12589EC6700A7C60B /* MeetingView.swift in Sources */,
 				89EDFC1E258A294700955669 /* DetailView.swift in Sources */,
+				89FF7300258F74860081B9FE /* Color+Codable.swift in Sources */,
 				89EDFC062589F70D00955669 /* DailyScrum.swift in Sources */,
 				89EDFC0E2589F88100955669 /* CardView.swift in Sources */,
 				89EDFC26258A2E2E00955669 /* EditView.swift in Sources */,

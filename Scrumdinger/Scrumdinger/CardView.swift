@@ -18,19 +18,18 @@ struct CardView: View {
                 Label("\(scrum.attendees.count)", systemImage: "person.3")
                     .accessibilityElement(children: .ignore)
                     .accessibilityLabel(Text("Attendees"))
-                    .accessibilityLabel(Text("\(scrum.attendees.count)"))
+                    .accessibilityValue(Text("\(scrum.attendees.count)"))
                 Spacer()
                 Label("\(scrum.lengthInMinutes)", systemImage: "clock")
                     .padding(.trailing, 20)
                     .accessibilityElement(children: .ignore)
                     .accessibilityLabel(Text("Meeting length"))
-                    .accessibilityLabel(Text("\(scrum.lengthInMinutes)"))
+                    .accessibilityValue(Text("\(scrum.lengthInMinutes) minutes"))
             }
             .font(.caption)
         }
         .padding()
-        //.foregroundColor(scrum.color.accessibleFontColor)
-        .foregroundColor(.black)
+        .foregroundColor(scrum.color.accessibleFontColor)
     }
 }
 
