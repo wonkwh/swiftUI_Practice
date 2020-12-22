@@ -20,6 +20,8 @@
 		89937976259201280064E47B /* ScrumProgressViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89937975259201280064E47B /* ScrumProgressViewStyle.swift */; };
 		8993797E259201F30064E47B /* ScrumTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8993797D259201F30064E47B /* ScrumTimer.swift */; };
 		89937983259205C70064E47B /* MeetingFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89937982259205C70064E47B /* MeetingFooterView.swift */; };
+		899379882592095F0064E47B /* AVPlayer+Ding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899379872592095F0064E47B /* AVPlayer+Ding.swift */; };
+		8993798E259209A10064E47B /* ding.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8993798D259209A10064E47B /* ding.wav */; };
 		89EDFC062589F70D00955669 /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89EDFC052589F70D00955669 /* DailyScrum.swift */; };
 		89EDFC0E2589F88100955669 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89EDFC0D2589F88100955669 /* CardView.swift */; };
 		89EDFC16258A248A00955669 /* ScrumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89EDFC15258A248A00955669 /* ScrumsView.swift */; };
@@ -64,6 +66,8 @@
 		89937975259201280064E47B /* ScrumProgressViewStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumProgressViewStyle.swift; sourceTree = "<group>"; };
 		8993797D259201F30064E47B /* ScrumTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumTimer.swift; sourceTree = "<group>"; };
 		89937982259205C70064E47B /* MeetingFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingFooterView.swift; sourceTree = "<group>"; };
+		899379872592095F0064E47B /* AVPlayer+Ding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AVPlayer+Ding.swift"; sourceTree = "<group>"; };
+		8993798D259209A10064E47B /* ding.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ding.wav; sourceTree = "<group>"; };
 		89EDFC052589F70D00955669 /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
 		89EDFC0D2589F88100955669 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		89EDFC15258A248A00955669 /* ScrumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumsView.swift; sourceTree = "<group>"; };
@@ -119,6 +123,7 @@
 		899198DD2589EC6700A7C60B /* Scrumdinger */ = {
 			isa = PBXGroup;
 			children = (
+				8993798C259209A10064E47B /* Resources */,
 				89EDFC042589F3E200955669 /* Models */,
 				899198DE2589EC6700A7C60B /* ScrumdingerApp.swift */,
 				89EDFC15258A248A00955669 /* ScrumsView.swift */,
@@ -162,6 +167,14 @@
 			path = ScrumdingerUITests;
 			sourceTree = "<group>";
 		};
+		8993798C259209A10064E47B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8993798D259209A10064E47B /* ding.wav */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		89EDFC042589F3E200955669 /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -170,6 +183,7 @@
 				899379682591F2330064E47B /* ScrumData.swift */,
 				899379702592001A0064E47B /* History.swift */,
 				8993797D259201F30064E47B /* ScrumTimer.swift */,
+				899379872592095F0064E47B /* AVPlayer+Ding.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -277,6 +291,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8993798E259209A10064E47B /* ding.wav in Resources */,
 				899198E62589EC6800A7C60B /* Preview Assets.xcassets in Resources */,
 				899198E32589EC6800A7C60B /* Assets.xcassets in Resources */,
 			);
@@ -307,6 +322,7 @@
 				899198E12589EC6700A7C60B /* MeetingView.swift in Sources */,
 				89937976259201280064E47B /* ScrumProgressViewStyle.swift in Sources */,
 				89937983259205C70064E47B /* MeetingFooterView.swift in Sources */,
+				899379882592095F0064E47B /* AVPlayer+Ding.swift in Sources */,
 				89EDFC1E258A294700955669 /* DetailView.swift in Sources */,
 				899379712592001A0064E47B /* History.swift in Sources */,
 				89327755258F78EE008D06C7 /* Color+Codable.swift in Sources */,
