@@ -18,16 +18,16 @@ struct MeetingView: View {
     var body: some View {
         ZStack {
             RoundedRectangle(cornerRadius: 16.0)
-                .fill(scrum.color)
+                .fill(scrum.theme.mainColor)
             VStack {
-                MeetingHeaderView(secondsElapsed: $scrumTimer.secondsElapsed, secondsRemaining: $scrumTimer.secondsRemaining, scrumColor: scrum.color)
+                MeetingHeaderView(secondsElapsed: $scrumTimer.secondsElapsed, secondsRemaining: $scrumTimer.secondsRemaining, scrumColor: scrum.theme)
                 Circle()
                     .strokeBorder(lineWidth: 24, antialiased: true)
                 MeetingFooterView(speakers: $scrumTimer.speakers, skipAction: scrumTimer.skipSpeaker)
             }
         }
         .padding()
-        .foregroundColor(scrum.color.accessibleFontColor)
+        .foregroundColor(scrum.theme.accentColor)
         .onAppear() {
             scrumTimer.reset(lengthInMinutes: scrum.lengthInMinutes, attendees: scrum.attendees)
             scrumTimer.speakerChangedAction = {
